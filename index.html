@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- CSS  -->
+    <link rel="stylesheet" href="style.css">
+    <!-- GOOGLE FONTS -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap"
+        rel="stylesheet">
+    <title> Custom Image Slider </title>
+</head>
+
+<body>
+    <main class="container">
+        <h1>Custom Image Slider </h1>
+        <div class="slider-container">
+            <button class="prev-btn">Previous</button>
+            <div class="slider">
+                <div class="img-id"></div>
+                <img class="active group" src="./img/image1.jpg" alt="image1">
+                <img class="group " src="./img/image2.jpg" alt="image2">
+                <img class="group " src="./img/image3.jpg" alt="image3">
+                <img class="group " src="./img/image4.jpg" alt="image4">
+                <img class="group " src="./img/image5.jpg" alt="image5">
+                <img class="group " src="./img/image6.jpg" alt="image6">
+                <img class="group " src="./img/image7.jpg" alt="image7">
+                <img class="group " src="./img/image8.jpg" alt="image8">
+                <img class="group " src="./img/image9.jpg" alt="image9">
+                <img class="group " src="./img/image10.jpg" alt="image10">
+                <div class="ful-scrn">
+                    <img class="active" src="./icons/lucide--fullscreen.png" alt="">
+                </div>
+            </div>
+            <button class="next-btn">Next</button>
+        </div>
+
+    </main>
+    <aside class="gallery-container"></aside>
+    <div class="overly hidden">
+        <div class="fullscreen-image">
+            <img class="fullScreenImage" src="" alt="mustang">
+            <button class="closeBtn">X</button>
+        </div>
+    </div>
+    <script src="./app.js"></script>
+</body>
+
+</html>
